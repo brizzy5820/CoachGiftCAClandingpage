@@ -1,0 +1,163 @@
+Coach Gift Website – User Manual
+
+Version: 1.0
+Prepared by: Bolu G
+Date: December 2025
+
+Table of Contents
+
+Introduction
+
+Editing Content
+
+Updating Services
+
+Adding Images
+
+Managing Testimonials
+
+FAQ Section
+
+Special Offers & Countdown Timer
+
+Updating Contact / WhatsApp Links
+
+Styling & CSS
+
+Adding / Editing Icons
+
+Deployment Instructions
+
+Support
+
+1. Introduction
+
+Welcome to your new website! This manual explains how to manage, update, and maintain your Coach Gift website, ensuring it remains up-to-date, professional, and fully functional.
+
+The website features:
+
+Sticky header with brand name & WhatsApp button
+
+Hero section with CTA
+
+Warning and Problem sections
+
+Services offered
+
+Benefits and “Why Choose Coach Gift”
+
+Testimonials & FAQ
+
+Special Offer section with countdown
+
+Final CTA and Footer
+
+2. Editing Content
+
+Open index.html in a code editor (VS Code, Sublime Text, Notepad++).
+
+Update headings <h1>, <h2>, <h3> and paragraphs <p> as needed.
+
+Example:
+
+<h1>Stop Losing Money Because Your Business Is Not Properly Registered</h1>
+
+
+Edit CTA button text inside <a> tags.
+
+3. Updating Services
+
+Services are located in <div class="services-grid">.
+
+Each service is a <div class="service-item">Service Name</div>.
+
+Add/remove services by copying or deleting these <div> elements.
+
+4. Adding Images
+
+Place images in assets/images/.
+
+Use <img src="assets/images/yourimage.png" alt="description"> to add images.
+
+Optimize images for web (JPEG/WebP) to improve page load speed.
+
+5. Managing Testimonials
+
+Testimonials are inside <div class="testimonial-card">.
+
+Edit the text for client quotes and names.
+
+Example:
+
+<p>"Coach Gift made the process smooth and fast."</p>
+<p style="font-weight:600;">- Business Owner, Lagos</p>
+
+6. FAQ Section
+
+FAQs use <details> tags:
+
+<details>
+  <summary>Question?</summary>
+  <p>Answer goes here.</p>
+</details>
+
+
+Copy <details> blocks to add more FAQs.
+
+7. Special Offers & Countdown Timer
+
+Countdown element: <span id="countdown2">23:59:59</span>
+
+Timer script at the bottom of index.html controls the countdown:
+
+let timeLeft = 24 * 60 * 60;
+
+
+Adjust timeLeft (seconds) to change countdown duration.
+
+8. Updating Contact / WhatsApp Links
+
+Update any link like:
+
+<a href="https://wa.link/2ackcs">Chat Now</a>
+
+
+Replace with your own WhatsApp link if needed.
+
+9. Styling & CSS
+
+Inline CSS is in <style> within index.html.
+
+Optional: Move CSS to assets/css/style.css for easier maintenance.
+
+Use Tailwind utility classes for layout adjustments.
+
+10. Adding / Editing Icons
+
+Font Awesome is used throughout. Example:
+
+<i class="fas fa-clock"></i>
+
+
+Visit Font Awesome Icons
+ for other icons.
+
+11. Deployment Instructions
+
+Upload all files to your web hosting server (cPanel, FTP, File Manager).
+
+Ensure your domain points to the hosting server.
+
+Open index.html in a browser to verify everything works.
+
+Test responsiveness on desktop and mobile devices.
+
+Maintain folder structure (assets/css/, assets/js/, assets/images/).
+
+12. Support
+
+Email: egbeyemiboluwatifedavid@gmail.com 
+
+Phone: 08106146952
+
+We provide assistance for website updates, deployment, or troubleshooting.
