@@ -407,10 +407,12 @@
                 align-items: center;
                 justify-content: center;
             }
-                  .sp-offer{
-                font-size: 1.5em !important;
-                color: #1e3c72;
+           .sp-offer{
+                font-size: 1.6em !important;
+                font-weight: bolder;
+                color: white;
             }
         }
 
     
+
